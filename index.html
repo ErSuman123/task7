@@ -3,37 +3,62 @@
 <head>
   <title>Student Details Table</title>
   <style>
-   h2{      text-align: center;
-            margin: 15px;
-            background-color: brown;
-        }
-        h2:hover{
-            background-color: yellowgreen;
-        }
-        table{
-            width:100%; 
-            border: 2px solid black;
-            border-collapse: collapse;
-            text-align: center;
-        }
-        th{
-            border: 2px solid red;
-            background-color: yellowgreen;
-        }
-        td{
-            border: 2px solid goldenrod;
-            background-color: gold;
-        }
-        td:hover{
-            background-color: blue;
-        }
-        th:hover{
-            background-color: mediumseagreen;
-        }
-       body{
-            background-color: blue;
-        }
+    body {
+      background-color: #f0f4f8;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 20px;
+    }
 
+    h2 {
+      text-align: center;
+      padding: 15px;
+      background-color: #2c3e50;
+      color: white;
+      border-radius: 8px;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    }
+
+    h2:hover {
+      background-color: #1abc9c;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 30px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+
+    th, td {
+      padding: 12px;
+      text-align: center;
+    }
+
+    th {
+      background-color: #3498db;
+      color: white;
+      border: 1px solid #2980b9;
+      font-weight: 600;
+    }
+
+    td {
+      background-color: #ecf0f1;
+      border: 1px solid #bdc3c7;
+    }
+
+    tr:nth-child(even) td {
+      background-color: #f9f9f9;
+    }
+
+    td:hover {
+      background-color: #d0ebff;
+      color: #2c3e50;
+    }
+
+    th:hover {
+      background-color: #2980b9;
+    }
   </style>
 </head>
 <body>
@@ -43,36 +68,36 @@
 <table>
   <tr>
     <th rowspan="2">Name</th>
-    <th colspan="2" class="academic-header">Academic Info</th>
+    <th colspan="2">Academic Info</th>
   </tr>
-  <tr class="academic-header">
+  <tr>
     <th>Registration No.</th>
     <th>CGPA till Last Semester</th>
   </tr>
   <tr>
-    <td>fareed Khan</td>
-    <td>23155135031</td>
-    <td>not completed</td>
+    <td>Aarav Sharma</td>
+    <td>23155135001</td>
+    <td>8.2</td>
   </tr>
   <tr>
-    <td>Md Arman</td>
-    <td>23155135036</td>
-    <td>not completed</td>
+    <td>Riya Patel</td>
+    <td>23155135002</td>
+    <td>7.9</td>
   </tr>
   <tr>
-    <td>Aniket Kumar</td>
-    <td>23155135035</td>
-    <td>not completed</td>
+    <td>Neha Verma</td>
+    <td>23155135003</td>
+    <td>8.5</td>
   </tr>
   <tr>
-    <td>Hamza hizazi</td>
-    <td>24155135905</td>
-    <td>new student</td>
+    <td>Rohan Mehta</td>
+    <td>23155135004</td>
+    <td>7.8</td>
   </tr>
   <tr>
-    <td>Azkar siddiqui</td>
-    <td>24155135034</td>
-    <td>not completed</td>
+    <td>Simran Kaur</td>
+    <td>23155135005</td>
+    <td>8.0</td>
   </tr>
 </table>
 
